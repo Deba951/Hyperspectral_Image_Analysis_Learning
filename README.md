@@ -15,10 +15,12 @@
 ## Warning in "Basics.ipynb"
   When importing the datasets using the commands,
       ```
-      !wget "http://www.ehu.eus/ccwintco/uploads/6/67/Indian_pines_corrected.mat" ,  
+      !wget "http://www.ehu.eus/ccwintco/uploads/6/67/Indian_pines_corrected.mat" and, 
       !wget "http://www.ehu.eus/ccwintco/uploads/c/c4/Indian_pines_gt.mat"
       ```
-  at times they may display error like:
+      
+  at times they may display errors like:
+  ```
       "Resolving www.ehu.eus (www.ehu.eus)... 158.227.0.65, 2001:720:1410::65
 Connecting to www.ehu.eus (www.ehu.eus)|158.227.0.65|:80... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
@@ -36,5 +38,6 @@ Location: https://www.ehu.eus/ccwintco/uploads/c/c4/Indian_pines_gt.mat [followi
 Connecting to www.ehu.eus (www.ehu.eus)|158.227.0.65|:443... connected.
 OpenSSL: error:0A000152:SSL routines::unsafe legacy renegotiation disabled
 Unable to establish SSL connection."
+```
 
 In this case, Download the .mat files and add them manually. This will work fine.
