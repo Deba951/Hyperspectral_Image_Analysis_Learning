@@ -14,8 +14,8 @@
 
 ## Warning in "Basics.ipynb"
   When importing the datasets using the commands,
-      !wget "http://www.ehu.eus/ccwintco/uploads/6/67/Indian_pines_corrected.mat
-      !wget "http://www.ehu.eus/ccwintco/uploads/c/c4/Indian_pines_gt.mat
+      !wget "http://www.ehu.eus/ccwintco/uploads/6/67/Indian_pines_corrected.mat"
+      !wget "http://www.ehu.eus/ccwintco/uploads/c/c4/Indian_pines_gt.mat"
   at times they may display error like:
       "Resolving www.ehu.eus (www.ehu.eus)... 158.227.0.65, 2001:720:1410::65
 Connecting to www.ehu.eus (www.ehu.eus)|158.227.0.65|:80... connected.
