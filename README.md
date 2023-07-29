@@ -13,13 +13,11 @@
 
 
 ## Warning in "Basics.ipynb"
-  When importing the datasets using the commands,
-      ```
+  When importing the datasets using the commands:
+  
       !wget "http://www.ehu.eus/ccwintco/uploads/6/67/Indian_pines_corrected.mat"
-      ```
-      ```
       !wget "http://www.ehu.eus/ccwintco/uploads/c/c4/Indian_pines_gt.mat"
-      ```
+       
       
   at times they may display errors like:
   ```
